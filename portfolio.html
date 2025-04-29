@@ -1,16 +1,17 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abdul Latif | Amazon Product Research & Branding Expert</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Abdul Latif | Amazon Product Research &amp; Branding Expert</title>
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<style>
         :root {
             --primary-color: #232f3e; /* Amazon navy */
             --secondary-color: #ff9900; /* Amazon orange */
@@ -284,382 +285,399 @@
             padding: 8px 15px;
             border-radius: 30px;
         }
-    </style>
-</head>
+    
+.btn-primary {
+  background-color: var(--secondary-color);
+  border: none;
+  padding: 12px 30px;
+  font-weight: 600;
+  color: #111;
+  transition: all 0.4s ease;
+  box-shadow: 0 0 0 transparent;
+}
+
+.btn-primary:hover {
+  background-color: #e88a00;
+  color: white;
+  box-shadow: 0 0 10px var(--secondary-color), 0 0 20px var(--secondary-color);
+}
+
+.back-to-top {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+</style>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/></head>
 <body data-bs-spy="scroll" data-bs-target=".navbar">
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">Abdul Latif</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#home">Home Page</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#learn">Learn to Build a Brand</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#faqs">FAQs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#coupons">Affiliate Coupons</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact Page</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section id="home" class="hero-section">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-8 mx-auto text-center">
-                    <div class="hero-content">
-                        <h1>We Turn Product Ideas into Best-Selling Amazon Brands</h1>
-                        <p>Data-driven research, smart differentiation, and customer-centric branding to help you dominate your niche</p>
-                        <a href="#contact" class="btn btn-primary btn-lg">Start Your Product Journey</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Why Choose Us Section -->
-    <section class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center section-title">Why Choose Us?</h2>
-            <div class="row">
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="feature-box">
-                        <div class="feature-icon">
-                            <i class="fas fa-chart-line"></i>
-                        </div>
-                        <h4>Data-Powered Market Research</h4>
-                        <p>We leverage automation and advanced sheets for keyword research, product validation, and market gap identification.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="feature-box">
-                        <div class="feature-icon">
-                            <i class="fas fa-clock"></i>
-                        </div>
-                        <h4>Early Market Entry Advantage</h4>
-                        <p>Gain a competitive edge by strategically launching before saturation.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="feature-box">
-                        <div class="feature-icon">
-                            <i class="fas fa-users"></i>
-                        </div>
-                        <h4>Customer-Centric Development</h4>
-                        <p>Align features with customer expectations, search behavior, and competitor insights.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="feature-box">
-                        <div class="feature-icon">
-                            <i class="fas fa-search-dollar"></i>
-                        </div>
-                        <h4>Conversion-Optimized Listings</h4>
-                        <p>From creative images to A+ content, we craft listings tailored to your audience.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Our Process Section -->
-    <section id="learn" class="py-5">
-        <div class="container">
-            <h2 class="text-center section-title">Our Process</h2>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="process-step">
-                        <div class="step-number">1</div>
-                        <h3>Market & Opportunity Analysis</h3>
-                        <p>We identify high-potential niches with low competition using advanced data tools.</p>
-                    </div>
-                    <div class="process-step">
-                        <div class="step-number">2</div>
-                        <h3>Product Validation & Differentiation</h3>
-                        <p>We analyze customer demand, expectations, and competitor gaps to ensure success.</p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="process-step">
-                        <div class="step-number">3</div>
-                        <h3>Product Development & Iteration</h3>
-                        <p>We prioritize features based on search queries, reviews, and revenue-driving attributes.</p>
-                    </div>
-                    <div class="process-step">
-                        <div class="step-number">4</div>
-                        <h3>Brand Positioning & Listing Optimization</h3>
-                        <p>We create high-converting product listings with engaging visuals and persuasive content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="text-center mt-5">
-                <a href="#contact" class="btn btn-primary btn-lg">Book a Free Strategy Call</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Product Research Section -->
-    <section class="py-5 bg-light">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <h2 class="section-title text-start">Smart Research. Smarter Products.</h2>
-                    <p>We don't guess—we validate. Our proprietary research process ensures your product aligns with customer needs and competitive gaps.</p>
-                    <p>We use automation tools and human expertise to identify trends before they peak, giving you a first-mover advantage.</p>
-                    <a href="#contact" class="btn btn-primary mt-3">Get a Custom Research Report</a>
-                </div>
-                <div class="col-lg-6">
-                    <div class="infographic">
-                        <!-- Placeholder for infographic -->
-                        <img src="https://via.placeholder.com/600x400" alt="Research Process Infographic" class="img-fluid">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Listing Optimization Section -->
-    <section class="py-5">
-        <div class="container">
-            <h2 class="text-center section-title">Turn Clicks into Conversions</h2>
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="before-after">
-                        <img src="https://via.placeholder.com/600x400" alt="Before Optimization" class="img-fluid mb-3">
-                        <span class="badge-custom">Before</span>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="before-after">
-                        <img src="https://via.placeholder.com/600x400" alt="After Optimization" class="img-fluid mb-3">
-                        <span class="badge-custom">After</span>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="col-lg-8 mx-auto text-center">
-                    <p>High-quality creative assets make the difference. We design images, A+ content, and compelling written content based on your audience.</p>
-                    <p>We analyze customer avatars to craft messaging that resonates and converts.</p>
-                    <a href="#contact" class="btn btn-primary mt-3">Optimize Your Listing Now</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Case Studies Section -->
-    <section class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center section-title">Proven Results for Amazon Sellers</h2>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="testimonial-card">
-                        <p>Product X increased sales by 300% through early market entry and strategic positioning.</p>
-                        <div class="testimonial-author">
-                            <img src="https://via.placeholder.com/50" alt="Client" class="author-img">
-                            <div>
-                                <h5>John Smith</h5>
-                                <p>Amazon Seller</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="testimonial-card">
-                        <p>Listing optimization boosted conversion rates by 40% and improved organic ranking.</p>
-                        <div class="testimonial-author">
-                            <img src="https://via.placeholder.com/50" alt="Client" class="author-img">
-                            <div>
-                                <h5>Sarah Johnson</h5>
-                                <p>E-commerce Entrepreneur</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="testimonial-card">
-                        <p>Identified and capitalized on an untapped niche, leading to $50K in monthly revenue.</p>
-                        <div class="testimonial-author">
-                            <img src="https://via.placeholder.com/50" alt="Client" class="author-img">
-                            <div>
-                                <h5>Michael Chen</h5>
-                                <p>Brand Owner</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="text-center mt-5">
-                <a href="#" class="btn btn-outline-primary">See More Success Stories</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Coupons Section -->
-    <section id="coupons" class="py-5">
-        <div class="container">
-            <h2 class="text-center section-title">Affiliate Coupons and Discounts</h2>
-            <div class="row">
-                <div class="col-lg-8 mx-auto text-center">
-                    <p>Exclusive discounts for our partners and clients. Check back regularly for updated offers.</p>
-                    <!-- Placeholder for coupon grid -->
-                    <div class="row mt-4">
-                        <div class="col-md-4 mb-4">
-                            <div class="feature-box">
-                                <h4>Helium 10</h4>
-                                <p>30% off first month</p>
-                                <a href="#" class="btn btn-sm btn-primary">Get Code</a>
-                            </div>
-                        </div>
-                        <div class="col-md-4 mb-4">
-                            <div class="feature-box">
-                                <h4>Jungle Scout</h4>
-                                <p>25% off annual plan</p>
-                                <a href="#" class="btn btn-sm btn-primary">Get Code</a>
-                            </div>
-                        </div>
-                        <div class="col-md-4 mb-4">
-                            <div class="feature-box">
-                                <h4>Sellerboard</h4>
-                                <p>20% off first 3 months</p>
-                                <a href="#" class="btn btn-sm btn-primary">Get Code</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- FAQs Section -->
-    <section id="faqs" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center section-title">Frequently Asked Questions</h2>
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <div class="faq-card">
-                        <div class="faq-header" onclick="toggleFAQ(this)">
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+<div class="container">
+<a class="navbar-brand" href="#">Abdul Latif</a>
+<button class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item">
+<a class="nav-link active" href="#home">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#learn">Learn to Build a Brand</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#faqs">FAQs</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#coupons">Affiliate Coupons</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#contact">Contact Page</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<!-- Hero Section -->
+<section class="hero-section" id="home">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-lg-8 mx-auto text-center">
+<div class="hero-content" data-aos="fade-up">
+<h1>We Turn Product Ideas into Best-Selling Amazon Brands</h1>
+<p>Data-driven research, smart differentiation, and customer-centric branding to help you dominate your niche</p>
+<a class="btn btn-primary btn-lg" href="#contact">Start Your Product Journey</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Why Choose Us Section -->
+<section class="py-5 bg-light">
+<div class="container">
+<h2 class="text-center section-title">Why Choose Us?</h2>
+<div class="row">
+<div class="col-lg-3 col-md-6 mb-4">
+<div class="feature-box" data-aos="fade-up">
+<div class="feature-icon">
+<i class="fas fa-chart-line"></i>
+</div>
+<h4>Data-Powered Market Research</h4>
+<p>We leverage automation and advanced sheets for keyword research, product validation, and market gap identification.</p>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 mb-4">
+<div class="feature-box" data-aos="fade-up">
+<div class="feature-icon">
+<i class="fas fa-clock"></i>
+</div>
+<h4>Early Market Entry Advantage</h4>
+<p>Gain a competitive edge by strategically launching before saturation.</p>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 mb-4">
+<div class="feature-box" data-aos="fade-up">
+<div class="feature-icon">
+<i class="fas fa-users"></i>
+</div>
+<h4>Customer-Centric Development</h4>
+<p>Align features with customer expectations, search behavior, and competitor insights.</p>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 mb-4">
+<div class="feature-box" data-aos="fade-up">
+<div class="feature-icon">
+<i class="fas fa-search-dollar"></i>
+</div>
+<h4>Conversion-Optimized Listings</h4>
+<p>From creative images to A+ content, we craft listings tailored to your audience.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Our Process Section -->
+<section class="py-5" id="learn">
+<div class="container">
+<h2 class="text-center section-title">Our Process</h2>
+<div class="row">
+<div class="col-lg-6">
+<div class="process-step">
+<div class="step-number">1</div>
+<h3>Market &amp; Opportunity Analysis</h3>
+<p>We identify high-potential niches with low competition using advanced data tools.</p>
+</div>
+<div class="process-step">
+<div class="step-number">2</div>
+<h3>Product Validation &amp; Differentiation</h3>
+<p>We analyze customer demand, expectations, and competitor gaps to ensure success.</p>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="process-step">
+<div class="step-number">3</div>
+<h3>Product Development &amp; Iteration</h3>
+<p>We prioritize features based on search queries, reviews, and revenue-driving attributes.</p>
+</div>
+<div class="process-step">
+<div class="step-number">4</div>
+<h3>Brand Positioning &amp; Listing Optimization</h3>
+<p>We create high-converting product listings with engaging visuals and persuasive content.</p>
+</div>
+</div>
+</div>
+<div class="text-center mt-5">
+<a class="btn btn-primary btn-lg" href="#contact">Book a Free Strategy Call</a>
+</div>
+</div>
+</section>
+<!-- Product Research Section -->
+<section class="py-5 bg-light">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-lg-6">
+<h2 class="section-title text-start">Smart Research. Smarter Products.</h2>
+<p>We don't guess—we validate. Our proprietary research process ensures your product aligns with customer needs and competitive gaps.</p>
+<p>We use automation tools and human expertise to identify trends before they peak, giving you a first-mover advantage.</p>
+<a class="btn btn-primary mt-3" href="#contact">Get a Custom Research Report</a>
+</div>
+<div class="col-lg-6">
+<div class="infographic">
+<!-- Placeholder for infographic -->
+<img alt="Research Process Infographic" class="img-fluid" src="https://via.placeholder.com/600x400"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Listing Optimization Section -->
+<section class="py-5">
+<div class="container">
+<h2 class="text-center section-title">Turn Clicks into Conversions</h2>
+<div class="row align-items-center">
+<div class="col-lg-6">
+<div class="before-after">
+<img alt="Before Optimization" class="img-fluid mb-3" src="https://via.placeholder.com/600x400"/>
+<span class="badge-custom">Before</span>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="before-after">
+<img alt="After Optimization" class="img-fluid mb-3" src="https://via.placeholder.com/600x400"/>
+<span class="badge-custom">After</span>
+</div>
+</div>
+</div>
+<div class="row mt-5">
+<div class="col-lg-8 mx-auto text-center">
+<p>High-quality creative assets make the difference. We design images, A+ content, and compelling written content based on your audience.</p>
+<p>We analyze customer avatars to craft messaging that resonates and converts.</p>
+<a class="btn btn-primary mt-3" href="#contact">Optimize Your Listing Now</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Case Studies Section -->
+<section class="py-5 bg-light">
+<div class="container">
+<h2 class="text-center section-title">Proven Results for Amazon Sellers</h2>
+<div class="row">
+<div class="col-lg-4">
+<div class="testimonial-card" data-aos="fade-up">
+<p>Product X increased sales by 300% through early market entry and strategic positioning.</p>
+<div class="testimonial-author">
+<img alt="Client" class="author-img" src="https://via.placeholder.com/50"/>
+<div>
+<h5>John Smith</h5>
+<p>Amazon Seller</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="testimonial-card" data-aos="fade-up">
+<p>Listing optimization boosted conversion rates by 40% and improved organic ranking.</p>
+<div class="testimonial-author">
+<img alt="Client" class="author-img" src="https://via.placeholder.com/50"/>
+<div>
+<h5>Sarah Johnson</h5>
+<p>E-commerce Entrepreneur</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="testimonial-card" data-aos="fade-up">
+<p>Identified and capitalized on an untapped niche, leading to $50K in monthly revenue.</p>
+<div class="testimonial-author">
+<img alt="Client" class="author-img" src="https://via.placeholder.com/50"/>
+<div>
+<h5>Michael Chen</h5>
+<p>Brand Owner</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text-center mt-5">
+<a class="btn btn-outline-primary" href="#">See More Success Stories</a>
+</div>
+</div>
+</section>
+<!-- Coupons Section -->
+<section class="py-5" id="coupons">
+<div class="container">
+<h2 class="text-center section-title">Affiliate Coupons and Discounts</h2>
+<div class="row">
+<div class="col-lg-8 mx-auto text-center">
+<p>Exclusive discounts for our partners and clients. Check back regularly for updated offers.</p>
+<!-- Placeholder for coupon grid -->
+<div class="row mt-4">
+<div class="col-md-4 mb-4">
+<div class="feature-box" data-aos="fade-up">
+<h4>Helium 10</h4>
+<p>30% off first month</p>
+<a class="btn btn-sm btn-primary" href="#">Get Code</a>
+</div>
+</div>
+<div class="col-md-4 mb-4">
+<div class="feature-box" data-aos="fade-up">
+<h4>Jungle Scout</h4>
+<p>25% off annual plan</p>
+<a class="btn btn-sm btn-primary" href="#">Get Code</a>
+</div>
+</div>
+<div class="col-md-4 mb-4">
+<div class="feature-box" data-aos="fade-up">
+<h4>Sellerboard</h4>
+<p>20% off first 3 months</p>
+<a class="btn btn-sm btn-primary" href="#">Get Code</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FAQs Section -->
+<section class="py-5 bg-light" id="faqs">
+<div class="container">
+<h2 class="text-center section-title">Frequently Asked Questions</h2>
+<div class="row">
+<div class="col-lg-8 mx-auto">
+<div class="faq-card">
+<div class="faq-header" onclick="toggleFAQ(this)">
                             Can you help with product research and differentiation for Amazon only?
                         </div>
-                        <div class="faq-body">
-                            <p>While we specialize in Amazon product research, our methodologies can be applied to other e-commerce platforms as well. We focus on Amazon because of its unique data availability and established marketplace dynamics.</p>
-                        </div>
-                    </div>
-                    <div class="faq-card">
-                        <div class="faq-header" onclick="toggleFAQ(this)">
+<div class="faq-body">
+<p>While we specialize in Amazon product research, our methodologies can be applied to other e-commerce platforms as well. We focus on Amazon because of its unique data availability and established marketplace dynamics.</p>
+</div>
+</div>
+<div class="faq-card">
+<div class="faq-header" onclick="toggleFAQ(this)">
                             What is your product development process?
                         </div>
-                        <div class="faq-body">
-                            <p>Our 4-phase process includes: 1) Market & Opportunity Analysis, 2) Product Validation & Differentiation, 3) Product Development & Iteration, and 4) Brand Positioning & Listing Optimization. Each phase is backed by data and customer insights.</p>
-                        </div>
-                    </div>
-                    <div class="faq-card">
-                        <div class="faq-header" onclick="toggleFAQ(this)">
+<div class="faq-body">
+<p>Our 4-phase process includes: 1) Market &amp; Opportunity Analysis, 2) Product Validation &amp; Differentiation, 3) Product Development &amp; Iteration, and 4) Brand Positioning &amp; Listing Optimization. Each phase is backed by data and customer insights.</p>
+</div>
+</div>
+<div class="faq-card">
+<div class="faq-header" onclick="toggleFAQ(this)">
                             What do you prioritize in the product selection/validation process?
                         </div>
-                        <div class="faq-body">
-                            <p>We prioritize: 1) Market demand (search volume and trends), 2) Competition level and quality, 3) Profit potential after all costs, 4) Product differentiation opportunities, and 5) Long-term brand building potential.</p>
-                        </div>
-                    </div>
-                    <div class="faq-card">
-                        <div class="faq-header" onclick="toggleFAQ(this)">
+<div class="faq-body">
+<p>We prioritize: 1) Market demand (search volume and trends), 2) Competition level and quality, 3) Profit potential after all costs, 4) Product differentiation opportunities, and 5) Long-term brand building potential.</p>
+</div>
+</div>
+<div class="faq-card">
+<div class="faq-header" onclick="toggleFAQ(this)">
                             How do you present the DATA?
                         </div>
-                        <div class="faq-body">
-                            <p>We provide comprehensive reports including: 1) Market analysis summary, 2) Competitive landscape, 3) Customer demand metrics, 4) Opportunity scorecards, and 5) Actionable recommendations. All data is visualized for easy understanding.</p>
-                        </div>
-                    </div>
-                    <div class="faq-card">
-                        <div class="faq-header" onclick="toggleFAQ(this)">
+<div class="faq-body">
+<p>We provide comprehensive reports including: 1) Market analysis summary, 2) Competitive landscape, 3) Customer demand metrics, 4) Opportunity scorecards, and 5) Actionable recommendations. All data is visualized for easy understanding.</p>
+</div>
+</div>
+<div class="faq-card">
+<div class="faq-header" onclick="toggleFAQ(this)">
                             Do you sign NDAs?
                         </div>
-                        <div class="faq-body">
-                            <p>Yes, we're happy to sign NDAs to protect your product ideas and business information. We take client confidentiality very seriously.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Get Started Section -->
-    <section id="contact" class="py-5">
-        <div class="container">
-            <h2 class="text-center section-title">Let's Build Your Brand Together</h2>
-            <p class="text-center mb-5">Whether you're launching a new product or optimizing an existing one, we're here to help you scale.</p>
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <div class="contact-form">
-                        <form>
-                            <div class="row">
-                                <div class="col-md-6 mb-3">
-                                    <input type="text" class="form-control" placeholder="Your Name" required>
-                                </div>
-                                <div class="col-md-6 mb-3">
-                                    <input type="email" class="form-control" placeholder="Your Email" required>
-                                </div>
-                            </div>
-                            <div class="mb-3">
-                                <input type="text" class="form-control" placeholder="Business Name">
-                            </div>
-                            <div class="mb-3">
-                                <select class="form-select">
-                                    <option selected>Service of Interest</option>
-                                    <option>Product Research</option>
-                                    <option>Market Analysis</option>
-                                    <option>Listing Optimization</option>
-                                    <option>Brand Strategy</option>
-                                    <option>Full Package</option>
-                                </select>
-                            </div>
-                            <div class="mb-3">
-                                <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary btn-lg w-100">Get a Free Consultation</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="text-center">
-        <div class="container">
-            <h3>Abdul Latif</h3>
-            <p>Amazon Product Research & Branding Expert</p>
-            <div class="social-icons mt-4">
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-            </div>
-            <div class="mt-4">
-                <p>&copy; 2023 Abdul Latif. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Back to Top Button -->
-    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
-
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Custom JS -->
-    <script>
+<div class="faq-body">
+<p>Yes, we're happy to sign NDAs to protect your product ideas and business information. We take client confidentiality very seriously.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Get Started Section -->
+<section class="py-5" id="contact">
+<div class="container">
+<h2 class="text-center section-title">Let's Build Your Brand Together</h2>
+<p class="text-center mb-5">Whether you're launching a new product or optimizing an existing one, we're here to help you scale.</p>
+<div class="row">
+<div class="col-lg-8 mx-auto">
+<div class="contact-form" data-aos="fade-up">
+<form>
+<div class="row">
+<div class="col-md-6 mb-3">
+<input class="form-control" placeholder="Your Name" required="" type="text"/>
+</div>
+<div class="col-md-6 mb-3">
+<input class="form-control" placeholder="Your Email" required="" type="email"/>
+</div>
+</div>
+<div class="mb-3">
+<input class="form-control" placeholder="Business Name" type="text"/>
+</div>
+<div class="mb-3">
+<select class="form-select">
+<option selected="">Service of Interest</option>
+<option>Product Research</option>
+<option>Market Analysis</option>
+<option>Listing Optimization</option>
+<option>Brand Strategy</option>
+<option>Full Package</option>
+</select>
+</div>
+<div class="mb-3">
+<textarea class="form-control" placeholder="Your Message" required="" rows="5"></textarea>
+</div>
+<button class="btn btn-primary btn-lg w-100" type="submit">Get a Free Consultation</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="text-center">
+<div class="container">
+<h3>Abdul Latif</h3>
+<p>Amazon Product Research &amp; Branding Expert</p>
+<div class="social-icons mt-4">
+<a href="#"><i class="fab fa-linkedin-in"></i></a>
+<a href="#"><i class="fab fa-twitter"></i></a>
+<a href="#"><i class="fab fa-facebook-f"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+</div>
+<div class="mt-4">
+<p>© 2023 Abdul Latif. All rights reserved.</p>
+</div>
+</div>
+</footer>
+<!-- Back to Top Button -->
+<a class="back-to-top" href="#"><i class="fas fa-arrow-up"></i></a>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Custom JS -->
+<script>
         // Back to top button
         const backToTopButton = document.querySelector('.back-to-top');
         
@@ -735,5 +753,14 @@
             }
         }
     </script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true,
+    easing: 'ease-in-out'
+  });
+</script>
 </body>
 </html>
